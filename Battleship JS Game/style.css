@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+body
+{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.board
+{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin-top: 5%;
+ /*   background-image: url(./board.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+.message
+{
+ position: absolute;
+ top: 10%;
+ left: 4%;
+ color: rgb(83, 175, 19);   
+ border: 1px white solid;
+ padding: 10px;
+ margin-left: 5%;
+ font-size: 0.9rem;
+}
+
+table
+{
+    position: relative;
+    width: 70vw;
+    height: 45vh;
+    left: 15vw;
+    top: -30%;
+    border-spacing: 0px;
+    table-layout: fixed;
+    border: rgb(83, 175, 19) solid 1px;
+}
+
+td
+{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    border: rgb(83, 175, 19) 1px solid;
+    
+}
+
+form
+{
+    position: relative;
+    top: -20%;
+    left: 57.5%;
+    padding: 15px;
+    width: 50%;
+    background-color: rgb(83, 175, 19);
+    border-radius: 10px;
+}
+
+form input
+{
+    background-color: rgb(152, 207, 113);
+    border: 1px solid rgb(83, 175, 19);
+    border-radius: 10px;
+    font-size: 1em;
+    color: black;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+#fireButton
+{
+    cursor: pointer;
+    width: 50%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    background-color: red;
+    border-radius: 10px;
+}
+
+p
+{
+    position: relative;
+    color: white;
+    margin-bottom: 11.5%;
+    top: 30%;
+    left: 10%;
+}
+
+h3
+{
+    position: relative;
+    color: white;
+    bottom: 27%;
+    left: 23%;
+    letter-spacing: 6px;
+}
+
+
+/* Hit and Miss Images  */
+
+.hit
+{
+    background-image: url(./ship.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.miss
+{
+    background-image: url(./miss.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
